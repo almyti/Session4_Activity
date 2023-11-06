@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.nav {
+    width: 97.33%;
+    height: 10vh;
+    background-image: linear-gradient(to right, rgba(74, 74, 74, 0.473), rgb(74, 74, 74, 0.473));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 40px;
+    margin-right: 10px; /* Adjusted margin for the logo */
+}
+
+.nav-logo .different-color {
+    color: yellow; /* Change the color of "FOOD" to the specified color */
+}
+
+.nav-logo span {
+    font-family: 'Oswald', sans-serif;
+    color: rgb(255, 255, 255); /* Change the color of "COURT" to the specified color */
+    font-size: 1.5vw; /* Match the font size with nav a */
+}
+
+.nav-center {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    font-family: 'Oswald', sans-serif; /* Change 'NewFont' to the desired font family */
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1vw;
+    padding: 10px;
+    margin-right: 5px;
+    transition: all 0.5s ease;
+}
+
+.nav a:hover {
+    text-decoration: underline; /* Add text decoration underline on hover */
+    font-size: 1.8vw;
+    color: yellow;
+}
+
+.main .content header {
+    color: white; /* Set font color to white */
+    padding-left: 100px; /* Add some left padding for spacing */
+    text-align: left; /* Align the text to the left */
+    font-family: 'Oswald', sans-serif; /* Use the Oswald font */
+    font-size: 50px; /* Font size (you can adjust it as needed) */
+    margin-top: 100px; /* Adjust the margin to move the text lower (you can change the value as needed) */
+    font-weight: bold; /* Make the font bold */
+}
+.main .content img {
+    width: 550px;
+    margin-right: 80px; /* Set right margin to 50px */
+    margin-top: -170px; /* Adjust the top margin as needed */
+    float: right;
+}
+.yellow-line {
+    border: none;
+    border-top: 2px solid yellow;
+    width: 10%; /* Adjust the width as needed */
+    margin: 10px auto 10px 0;
+}
+.main .content header p {
+    font-size: 15px; /* Adjust the font size to your preference */
+    font-weight: normal; /* Set the font weight to normal (not bold) */
+}
+.yellow-box {
+    background-color: yellow;
+    padding: 5px; /* Add some padding for space inside the box */
+    width: 180px; /* Adjust the width as needed */
+    height: 30px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 480px; /* Move the box 20px down from the top */
+    left: 100px; /* Move the box 30px from the left */
+}
+.yellow-box a {
+    text-decoration: none; /* Remove underline from the link */
+    font-weight: bold; /* Make the text bold */
+    font-size: 16px; /* Adjust the font size as needed */
+    font-family: 'Oswald', sans-serif; /* Use the same font family as the <p> */
+    color: black;
+}
+.yellow-box a:hover {
+    color: white;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+.main2 header h1 {
+    color: white; /* Set font color to white */
+    padding-left: 650px; /* Add some left padding for spacing */
+    text-align: left; /* Align the text to the left */
+    font-family: 'Oswald', sans-serif; /* Use the Oswald font */
+    font-size: 35px; /* Font size (you can adjust it as needed) */
+    margin-top: 250px; /* Adjust the margin to move the text lower (you can change the value as needed) */
+    font-weight: bold; /* Make the font bold */
+}
+/* Add new styles for the <p> element */
+.main2 header p {
+    padding-left: 500px; /* Add some left padding for spacing */
+    text-align: left; /* Align the text to the left */
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px; /* Adjust the font size as needed */
+    margin-top: -20px; /* Adjust the margin as needed */
+    color: white;
+}
+.main2-1 {
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main2-1 section {
+    background-image: linear-gradient(to right, rgba(74, 74, 74, 0.473), rgb(74, 74, 74, 0.473));
+    border-radius: 20px;
+    width: 20%;
+    height: 50%;
+    border: 1px solid yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -200px;
+}
+
+.main2-1 section h2 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.main2 div section img {
+    width: 60%;
+    object-fit: contain;
+}
+.yellow-line2 {
+    border: none;
+    border-top: 2px solid yellow;
+    width: 100%;
+    margin: 10px auto;
+}
+
+footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Oswald', sans-serif; /* Use the same font as the main content */
+}
+
+footer h3 {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.center-details p {
+    font-size: 18px; /* Adjust the font size as needed */
+    margin: 5px 0;
+}
